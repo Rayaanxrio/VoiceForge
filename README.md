@@ -48,7 +48,7 @@ A modern, full-stack voice cloning application powered by Qwen3-TTS-12Hz-0.6B-Ba
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/voiceforge.git
+git clone https://github.com/Rayaanxrio/voiceforge.git
 cd voiceforge
 ```
 
