@@ -90,22 +90,14 @@ python main.py
 
 ## 📸 Screenshots
 
-> **Note:** Add your screenshots to the `/screenshots` folder. See [screenshots/README.md](screenshots/README.md) for instructions.
-
 ### Home Page
 ![VoiceForge Hero](screenshots/hero.png)
-*Modern dark theme with glassmorphism effects and gradient text*
+
 
 ### Voice Cloning Interface
 ![Voice Cloning Card](screenshots/clone-card.png)
-*Drag-and-drop audio upload with text input for generation*
 
-### Generated Audio Player
-![Audio Player](screenshots/audio-player.png)
-*Play, pause, and download your generated audio*
 
-### Demo
-> 🎬 **Coming Soon:** Full workflow GIF showing voice cloning in action
 
 ## 🎯 How It Works
 
