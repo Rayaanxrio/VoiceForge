@@ -90,14 +90,22 @@ python main.py
 
 ## 📸 Screenshots
 
+> **Note:** Add your screenshots to the `/screenshots` folder. See [screenshots/README.md](screenshots/README.md) for instructions.
+
 ### Home Page
-<img src="screenshots/hero.png" alt="VoiceForge Hero" width="800"/>
+![VoiceForge Hero](screenshots/hero.png)
+*Modern dark theme with glassmorphism effects and gradient text*
 
 ### Voice Cloning Interface
-<img src="screenshots/clone-card.png" alt="Voice Cloning Card" width="800"/>
+![Voice Cloning Card](screenshots/clone-card.png)
+*Drag-and-drop audio upload with text input for generation*
 
 ### Generated Audio Player
-<img src="screenshots/audio-player.png" alt="Audio Player" width="800"/>
+![Audio Player](screenshots/audio-player.png)
+*Play, pause, and download your generated audio*
+
+### Demo
+> 🎬 **Coming Soon:** Full workflow GIF showing voice cloning in action
 
 ## 🎯 How It Works
 
@@ -205,4 +213,4 @@ Project Link: https://github.com/Rayaanxrio
 
 **⭐ Star this repo if you found it helpful!**
 
-Built with ❤️ using React, FastAPI, and Qwen3-TTS
+Built with ❤️ by Rayaan using React, FastAPI, and Qwen3-TTS
