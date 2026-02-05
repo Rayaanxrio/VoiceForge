@@ -1,0 +1,104 @@
+# Root .gitignore
+
+# Environment variables (IMPORTANT - NEVER COMMIT)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Secrets and API Keys (CRITICAL)
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+auth_token.txt
+
+# ngrok configuration (contains auth token)
+.ngrok/
+ngrok.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/build/
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Audio files (can be large)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+!frontend/public/*.wav
+!frontend/public/*.mp3
+
+# Generated files
+output/
+generated/
+temp/
+tmp/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.sqlite
+*.db
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# Sensitive documentation (if you document API keys/passwords)
+PRIVATE_NOTES.md
+CREDENTIALS.md
+API_KEYS.md
+T4_FLASHATTENTION_FIX.md
+SECURITY_NOTES.md
+LINKEDIN_POST.md
